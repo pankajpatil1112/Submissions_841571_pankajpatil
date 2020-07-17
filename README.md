@@ -1,4 +1,4 @@
 # Submissions_841571_pankajpatil
 Screenshots:
-![](java-comparartor.png)
+![](java-comparator.png)
 ![](java-stack.png)
