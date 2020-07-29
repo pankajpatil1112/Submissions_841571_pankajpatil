@@ -1,0 +1,5 @@
+package com.cognizant.ExchangeServiceProxy;
+
+public interface ProductExchangeServiceProxy {
+
+}

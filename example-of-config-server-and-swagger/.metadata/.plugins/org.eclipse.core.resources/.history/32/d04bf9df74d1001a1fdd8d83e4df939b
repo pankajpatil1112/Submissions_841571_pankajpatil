@@ -1,0 +1,16 @@
+package com.cognizant.store.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.cognizant.store.entity.Store;
+
+public class StoreDaoImpl implements StoreDao{
+	@Autowired
+	Store store;
+	@Override
+	public void addStore(String storeName, int productId) {
+		
+		
+	}
+
+}

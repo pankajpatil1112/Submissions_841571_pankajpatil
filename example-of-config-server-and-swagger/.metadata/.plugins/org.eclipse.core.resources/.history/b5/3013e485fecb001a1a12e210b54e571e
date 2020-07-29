@@ -1,0 +1,5 @@
+package com.cognizant.product.service;
+
+public class ProductServiceImpl {
+
+}

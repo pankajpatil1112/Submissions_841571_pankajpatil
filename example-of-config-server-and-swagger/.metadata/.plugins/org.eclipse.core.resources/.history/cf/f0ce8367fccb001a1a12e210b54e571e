@@ -1,0 +1,9 @@
+package com.cognizant.product.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cognizant.product.model.Product;
+
+public interface ProductRepository extends CrudRepository<Integer, Product>{
+
+}

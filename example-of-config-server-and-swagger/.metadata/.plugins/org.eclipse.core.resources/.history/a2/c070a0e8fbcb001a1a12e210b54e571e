@@ -1,0 +1,5 @@
+package com.cognizant.product.repository;
+
+public interface ProductRepository {
+
+}

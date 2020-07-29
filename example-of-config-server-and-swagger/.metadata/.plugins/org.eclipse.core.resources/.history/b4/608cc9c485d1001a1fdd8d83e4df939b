@@ -1,0 +1,19 @@
+spring.application.name=zuul-service
+spring.cloud.config.uri=http://localhost:8888
+#To register service on Eureka Discovery Server ( Naming Server )
+eureka.client.serviceUrl.defaultZone:http://localhost:8761/eureka/
+
+
+# A prefix that can added to beginning of all requests. 
+zuul.prefix=/api
+
+
+zuul.ignored-services=*
+
+#Map paths to services
+zuul.routes.product-service.path=/product-service/**
+zuul.routes.product-service.service-id=product-service
+
+#Map paths to services
+#zuul.routes.menuitem-service.path=/truyum/**
+#zuul.routes.menuitem.service-id=menuitem-service

@@ -1,0 +1,16 @@
+package com.cognizant.store.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.store.dao.StoreDao;
+@Service
+public class StoreServiceImpl implements StoreService{
+   @Autowired
+   StoreDao storeDao;
+	@Override
+	public void addStore(Store store) {
+	   storeDao.addStore(store);
+	}
+
+}

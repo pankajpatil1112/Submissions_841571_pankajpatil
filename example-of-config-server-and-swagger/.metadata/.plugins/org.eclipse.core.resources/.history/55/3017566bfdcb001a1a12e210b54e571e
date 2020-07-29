@@ -1,0 +1,19 @@
+package com.cognizant.product.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.cognizant.product.model.Product;
+import com.cognizant.product.repository.ProductRepository;
+
+public class ProductDaoImpl implements ProductDao{
+	@Autowired
+    private ProductRepository productRepository;
+	@Override
+	public List<Product> getAllProduct() {
+		// TODO Auto-generated method stub
+		return (List<Product>) productRepository.findAll();
+	}
+
+}

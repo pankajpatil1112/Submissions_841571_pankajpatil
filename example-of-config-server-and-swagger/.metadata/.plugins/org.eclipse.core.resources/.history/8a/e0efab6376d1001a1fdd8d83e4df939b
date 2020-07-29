@@ -1,0 +1,5 @@
+package com.cognizant.store.service;
+
+public interface StoreService {
+   public void addStore(Store store);
+}

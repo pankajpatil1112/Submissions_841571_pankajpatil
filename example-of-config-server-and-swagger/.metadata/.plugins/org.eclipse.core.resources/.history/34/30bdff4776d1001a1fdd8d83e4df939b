@@ -1,0 +1,8 @@
+package com.cognizant.store.dao;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public interface StoreDao {
+   public void addStore(String storeName, int productId);
+}

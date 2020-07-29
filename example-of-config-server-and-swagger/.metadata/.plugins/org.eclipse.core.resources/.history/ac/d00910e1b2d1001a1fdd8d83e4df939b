@@ -1,0 +1,8 @@
+spring.cloud.config.uri=http://localhost:8889
+#server.port=8761
+spring.application.name = eureka
+#eureka.client.register-with-eureka=false
+#eureka.client.fetch-registry=false
+
+#logging.level.com.netflix.eureka=OFF
+#logging.level.com.netflix.discovery=OFF

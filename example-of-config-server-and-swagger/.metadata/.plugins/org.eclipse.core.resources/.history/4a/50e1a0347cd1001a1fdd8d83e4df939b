@@ -1,0 +1,8 @@
+package com.cognizant.ExchangeServiceProxy;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient("product")
+public interface ProductExchangeServiceProxy {
+
+}

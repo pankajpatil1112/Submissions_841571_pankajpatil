@@ -1,0 +1,5 @@
+package com.cognizant.product.dao;
+
+public class ProductDaoImpl {
+
+}

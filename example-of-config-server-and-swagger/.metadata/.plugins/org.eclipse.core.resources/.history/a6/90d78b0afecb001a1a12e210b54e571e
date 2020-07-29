@@ -1,0 +1,9 @@
+package com.cognizant.product.dao;
+
+import java.util.List;
+
+import com.cognizant.product.model.Product;
+
+public interface ProductDao {
+  public List<Product> getAllProduct();
+}
